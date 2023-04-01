@@ -9,9 +9,10 @@ const USERNAME_KEY = 'username';
 const saveUserName = localStorage.getItem(USERNAME_KEY);
 
 function onLoginSubmit(e){
+    e.preventDefault();
+    
     const username = loginInput.value;
 
-    e.preventDefault();
     loginForm.classList.add(HIDDEN_CLASSNAME);
     localStorage.setItem(USERNAME_KEY,username);
     onGreeting(username);
