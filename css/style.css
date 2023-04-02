@@ -49,7 +49,6 @@ input::placeholder{
     font-size:20px;
     letter-spacing:-.28px;
 }
-
 button{
     display:block;
     position:relative;
@@ -69,21 +68,17 @@ button{
 }
 button:hover{ top:-3px;}
 
-
 /* login-form */
 #login-form{ 
     display:flex;
     align-items:center;
     max-width:350px;
 }
-#login-form input{ }
 #login-form button{ 
     margin-left:10px;
     border-bottom:2px solid transparent;
-
 }
 #login-form button:hover{ border-color:rgb(136 136 136 / 50%);}
-
 
 /* success-area */
 #success-area{ 
@@ -94,16 +89,12 @@ button:hover{ top:-3px;}
 #sucesse-area *{ width:100%;}
 
 /* weather-box */
-#weather-box{
-    text-align:center;
-}
+#weather-box{ text-align:center;}
 #weather-box span{
     font-size:20px;
     font-weight:700;
     line-height:22px;
 }
-#weather-box span:first-child{}
-#weather-box span:last-child{}
 
 /* time-now */
 #time-now{
@@ -118,13 +109,8 @@ button:hover{ top:-3px;}
     font-size:40px;
     font-weight:900;
     text-align:center;
+    word-break:break-all;
 }
-
-
-/* todo-form */
-#todo-form{ }
-#todo-form input{ }
-
 
 /* list-box */
 #list-box{
@@ -150,7 +136,6 @@ button:hover{ top:-3px;}
     color:#fff;
     font-size:14px;
 }
-#list-box span{}
 #list-box button{
     flex:0 0 auto;
     margin-left:7px;
