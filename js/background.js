@@ -27,7 +27,8 @@ const choseColor1 = colors[Math.floor(Math.random() * colors.length)];
 const choseColor2 = colors[Math.floor(Math.random() * colors.length)];
 
   if(choseColor1 == choseColor2){
-    body.style.backgroundImage = `linear-gradient(0.25turn,#575fcf,#00d8d6`;
+    body.style.background = `url('./img/random-img.jpeg')no-repeat center`;
+    body.style.backgroundSize = `cover`;
   }else{
     body.style.backgroundImage = `linear-gradient(0.25turn,${choseColor1},${choseColor2})`;
   }
