@@ -9,7 +9,7 @@ function onGeoOk(position){
     const lon = position.coords.longityde;
 
     // const url=`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}&lang={lang}`
-    const url = `https://api.openweathermap.org/data/2.5/weather?lat=37.598&lon=126.9783&appid=8500fe23fc65036167057cb033cd6165&lang={lang}`ß;
+    const url = `https://api.openweathermap.org/data/2.5/weather?lat=37.598&lon=126.9783&appid=8500fe23fc65036167057cb033cd6165&lang={lang}`;
     
     fetch(url)
         .then((responce) => reponse.json())
