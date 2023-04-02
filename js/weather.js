@@ -25,4 +25,4 @@ function onGeoError(){
     weather.innerText = "The weather there is probably nice";
 }
 
-navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError);
+// navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError);

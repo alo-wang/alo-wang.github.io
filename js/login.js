@@ -1,3 +1,4 @@
+const successArea = document.querySelector('#success-area');
 const greeting = document.querySelector('h1#greeting');
 const loginForm = document.querySelector('#login-form');
 const loginInput = loginForm.querySelector('input');
@@ -19,8 +20,8 @@ function onLoginSubmit(e){
 }
 
 function onGreeting(username){
-    greeting.innerText = `welcome! ${username}`;
-    greeting.classList.remove(HIDDEN_CLASSNAME);
+    greeting.innerText = `WELCOME!${ username}`;
+    successArea.classList.remove(HIDDEN_CLASSNAME);
 }
 
 if(saveUserName === null){

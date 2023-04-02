@@ -8,28 +8,27 @@
     <title>Todo List</title>
 </head>
 <body>
-
     <section><!-- landom bg -->
-        <div id="time-now">time area</div>
-
-        <h1 id="greeting" class="hidden"></h1>
-
         <form id="login-form">
-            <input type="text">
+            <input type="text" placeholder="write your name">
             <button type="submit">Log In</button>
         </form>
 
-        <form id="todo-form">
-            <input type="text" id="write">
-        </form>
+        <div id="success-area" class="hidden">
+            <div id="weather-box">
+                <span>city</span>
+                <span>weather</span>
+            </div>
+        
+            <div id="time-now">time area</div>
+                
+            <h1 id="greeting"></h1>
 
-        <ul id="list-box">
-            <!-- <li>todo list</li> -->
-        </ul>
-
-        <div id="weather-box">
-            <span></span>
-            <span></span>
+            <form id="todo-form">
+                <input type="text" id="write" placeholder="writer your todo list!">
+            </form>
+    
+            <ul id="list-box"></ul>
         </div>
     </section>
 

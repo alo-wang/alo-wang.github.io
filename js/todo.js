@@ -23,7 +23,7 @@ function paintTodo(newTodo){
     listItem.appendChild(span).innerText = newTodo.text;
     listItem.appendChild(btn).innerText = 'X';
     listBox.appendChild(listItem).id = newTodo.id;
-
+    
     btn.addEventListener('click',deleteToDo);
 }
 
