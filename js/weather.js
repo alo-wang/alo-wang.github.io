@@ -8,9 +8,9 @@ function onGeoOk(position){
     const lat = position.coords.latitude;
     const lon = position.coords.longityde;
 
-    const url=`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}&lang={lang}`
+    const url=`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}&lang={lang}`;
     // [memo] 피씨 보안상 날씨 확인 불가로 임시 테스트
-    // const url = `https://api.openweathermap.org/data/2.5/weather?lat=37.598&lon=126.9783&appid=8500fe23fc65036167057cb033cd6165&lang={lang}`
+    // const url = `https://api.openweathermap.org/data/2.5/weather?lat=37.598&lon=126.9783&appid=8500fe23fc65036167057cb033cd6165&lang={lang}`;
     
     fetch(url)
         .then((response) => response.json())

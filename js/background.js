@@ -26,7 +26,11 @@ function setColor() {
 const choseColor1 = colors[Math.floor(Math.random() * colors.length)];
 const choseColor2 = colors[Math.floor(Math.random() * colors.length)];
 
-body.style.backgroundImage = `linear-gradient(0.25turn,${choseColor1},${choseColor2})`;
+  if(choseColor1 == choseColor2){
+    body.style.backgroundImage = `linear-gradient(0.25turn,#575fcf,#00d8d6`;
+  }else{
+    body.style.backgroundImage = `linear-gradient(0.25turn,${choseColor1},${choseColor2})`;
+  }
 }
   
 setColor();
