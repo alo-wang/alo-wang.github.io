@@ -46,3 +46,11 @@ textarea{width:100%;border-radius:0;box-shadow:none;resize:none;appearance:none;
 img{width:100%;vertical-align:top;}
 img:not([src]){visibility:hidden;}
 select::-ms-expand{display:none;}
+
+img{ 
+    width:100%;
+    /* width:auto; */
+    height:100%;
+    /* margin:0 auto; */
+    object-fit:cover;
+}
