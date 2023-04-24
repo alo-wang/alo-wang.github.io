@@ -127,6 +127,8 @@ article p span{
 article img{
     padding:0 calc(100% / 5.5);
     z-index:0;
+    opacity:1;
+    transition:opacity 0.5s;
 }
 article figcaption{
     display:inline-block;
@@ -141,4 +143,7 @@ article figcaption{
 
 article .active p{
     transform: rotateY(0deg);
+}
+article .active img{
+    opacity:0;
 }
