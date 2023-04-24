@@ -1,3 +1,6 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400&display=swap');
+
 /*========================================================
  Reset
 ========================================================*/
@@ -14,7 +17,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     -moz-box-sizing:border-box;
     -webkit-tap-highlight-color:transparent;
 }
-body{overflow-x:hidden;}
+body{
+    overflow-x:hidden;
+    font-size:4.2667vw;
+}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section{display:block;}
 ol, ul{list-style:none;}
@@ -53,4 +59,94 @@ img{
     height:100%;
     /* margin:0 auto; */
     object-fit:cover;
+}
+
+
+/*================================================================================================================*/
+*{ font-family: 'Noto Serif KR', serif;}
+section{
+    margin:25px 0 0 20px;
+}
+section p{
+    position:relative;
+    display:inline-block;
+    margin-bottom:4px;
+    padding:0 5px;
+    background-color:#000;
+    color:#fff;
+    font-size:8vw;
+    line-height:11.7334vw;
+}
+section p::after{
+    content:'';
+    clear:both;
+    position:absolute;
+    bottom:3px;
+    right:5px;
+    left:5px; 
+    height:2px;
+    background-color:#fff;
+}
+
+article{
+    margin-top:100px;
+}
+article:last-child{ padding-bottom:100px;}
+article figure{
+    position:relative;
+    text-align:center;
+    
+
+
+
+}
+article p{
+    position:absolute;
+    left:0;
+    right:0;
+    
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    
+    width:calc(100% - 6.1334vw - 10px);
+    height:calc(100% - 6.1334vw - 10px);
+    margin:0 auto;
+    
+    border-radius:100%;
+    background-color:rgba(0,0,0,.25);
+
+    color:#fff;
+    font-size:40vw;
+    font-weight:bold;
+
+    
+    perspective:1000px;
+    transition:transform 0.7s;
+    transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
+article p span{ 
+    position:relative;
+    font-size:7vw;
+}
+article img{
+    padding:0 calc(100% / 5.5);
+}
+article figcaption{
+    display:inline-block;
+    margin:10px auto 0;
+    padding:0 5px;
+    background-color:#000;
+    color:#fff;
+    /* font-size:16px; */
+    font-weight:300;
+    line-height:6.1334vw;/* 23px */
+}
+
+article .active p{
+    transform: rotateY(0deg);
 }

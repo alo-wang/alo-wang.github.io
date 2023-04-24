@@ -1,16 +1,30 @@
-const imgs = [
-    "img-jion-1.svg",
-    "img-jion-2.svg",
-];
+const flipImg = document.querySelectorAll('figure');
+const flipText = document.querySelectorAll('figure p');
+const flipBtn = document.querySelectorAll('figure figcaption');
 
-const choseImg = imgs[Math.floor(Math.random() * imgs.length)];
+flipBtn.forEach(element => {
+    console.log(element)
+    element.addEventListener('click',randomText);
+    randomText();
+});
 
-console.log(choseImg);
+// flip(class list)
+function flipClass(item){
+    flipImg.forEach(function(item){
+        item.addEventListener('click',function(){
+            flipImg.forEach(function(e){
+                e.classList.remove('active'); 
+            });
+            item.classList.add('active');
+        }); 
+    });
+}
 
-const bgImg = document.createElement("img"); // 작은따옴표 말고 큰따옴표로 작성할것.
+// random event
+function randomText(){
+    flipText.forEach(element => {
+        element.innerHTML = `<span>축하해요!</span>` + Math.ceil(Math.random() * 10);
+    });
+    flipClass();
+}
 
-bgImg.src = `img/${choseImg}`;
-
-console.log(bgImg); // 결과로는 src의 내용은 아직까지 텍스트의 불가하다.
-
-document.body.append(bgImg);
