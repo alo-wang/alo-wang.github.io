@@ -1,0 +1,36 @@
+@mixin pseudo-element() {
+    content:'';
+    display:block;
+    overflow:hidden;
+}
+
+@mixin font($type : "size-32") {
+    @if($type == "size-32"){ // intro-top
+        color:#3B3D3B;
+        font-size:10vw;
+        font-weight:800;
+        line-height:11.25vw;
+        text-align:center;
+    }
+    @else if($type == "size-18"){ // intro-bottom-1
+        color:#FFF;
+        font-size:5.625vw;
+        font-weight:700;
+        line-height:6.25vw;
+        text-align:center;
+    }
+    @else if($type == "size-14"){ // intro-bottom-2
+        font-size:4.375vw;
+        font-weight:700;
+    }
+}
+
+@mixin icon($type) {
+    @if($type == "ico-star-white"){
+        width:6.875vw;
+        height:6.875vw;
+        margin:0 auto;
+        background:url('../img/ico-star-white.svg') no-repeat center;
+    }
+    background-size:contain;
+}

@@ -1,0 +1,30 @@
+@import 'mixin.scss';
+
+.section_intro{
+    position:relative;
+    h1{
+        position:absolute;
+        top:20.3125vw;
+        right:0;
+        left:0;
+        @include font("size-32");
+    }
+    img{
+        width:100%;
+    }
+    p{
+        position:absolute;
+        bottom:10vw;
+        right:0;
+        left:0;
+        @include font("size-18");
+        &::before{
+            @include pseudo-element();
+            @include icon("ico-star-white");
+        }
+        span{
+            display:block;
+            @include font("size-14");
+        }
+    }
+}
