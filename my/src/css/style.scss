@@ -114,6 +114,8 @@
             &.left{
                 align-items:flex-end;
                 margin-top:35.625vw;
+                margin-right:3.125vw;
+                figure{margin-bottom:1.5625vw;}
                 figure:nth-of-type(1){width:28.125vw;}
                 figure:nth-of-type(2){width:40.625vw;}
                 figure:nth-of-type(3){width:35.3125vw;}
@@ -121,11 +123,17 @@
             &.right{
                 align-items:flex-start;
                 margin-top:12.1875vw;
+                margin-left:3.125vw;
+                figure{margin-bottom:1.5625vw;}
                 figure:nth-of-type(1){width:26.875vw;}
                 figure:nth-of-type(2){width:35.3125vw;}
                 figure:nth-of-type(3){width:40.625vw;}
             }
         }
+    }
+
+    .greeting-btm{
+        
     }
 
     .mid-line{
