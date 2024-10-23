@@ -71,16 +71,15 @@ function Greeting(props){
             </div>
 
             <div className="greeting-btm">
+                <p className="btm-txt">
+                    가족이 만나<br/>가족이 되다.
+                </p>
                 <div className="bottom">
                     <figure>
                         <img src={familyImgU01} alt="쥬스를 마시는 시은과 커피를 마시는 대웅의 모습"></img>
                     </figure>
                 </div>
-                <p>
-                    가족이 만나<br/>가족이 되다.
-                </p>
-
-                <p>
+                <p className="btm-txt">
                     2024.12.08<br/>대웅, 시은<br/>가족이 되다.
                 </p>
 
@@ -88,7 +87,7 @@ function Greeting(props){
                     <img src={familyImgU02} alt="다정하게 포즈를 취하는 4컷 사진의 대웅과 시은의 모습"></img>
                 </figure>
 
-                <p>
+                <p className="btm-txt highlight">
                     축하해주신 모든분들께<br/>감사드립니다.
                 </p>
             </div>
