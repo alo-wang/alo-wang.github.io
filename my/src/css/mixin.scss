@@ -4,15 +4,25 @@
     overflow:hidden;
 }
 
-@mixin font($type : "size-32") {
-    @if($type == "size-32"){ // intro-top
+@mixin font-type($type){
+    font-family:"Pretendard Variable", Pretendard;
+    @if($type == "Pretendard-bold"){
+        font-weight:bold;
+    }
+    @else if($type == "Pretendard-normal"){
+        font-weight:normal;
+    }
+}
+
+@mixin font($type : "size-36") {
+    @if($type == "size-36"){ // intro-top-1
         color:#3B3D3B;
-        font-size:10vw;
-        font-weight:800;
-        line-height:11.25vw;
+        font-size:11.25vw;
+        font-weight:300;
+        line-height:13.125vw;
         text-align:center;
     }
-    @else if($type == "size-18"){
+    @else if($type == "size-18"){ 
         color:#000;
         font-size:5.625vw;
         font-weight:700;
@@ -23,10 +33,11 @@
         font-size:4.375vw;
         font-weight:700;
     }
-    @else if($type == "size-12"){ 
+    @else if($type == "size-12"){ // intro-top-2
         font-size:3.75vw;
         font-weight:700;
-        line-height:4.6875vw;
+        line-height:5.625vw;
+        text-align:center;
     }
 }
 
