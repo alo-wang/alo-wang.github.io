@@ -42,7 +42,7 @@ function BasicExample() {
                 <button type='button'>계좌 복사하기</button>
               </CopyToClipboard>
             </li>
-            <li>
+            {/* <li>
               <div>
                 <span>
                   <em>어머니</em><b>백춘희</b>
@@ -58,7 +58,7 @@ function BasicExample() {
               >
                 <button type='button'>계좌 복사하기</button>
               </CopyToClipboard>
-            </li>
+            </li> */}
           </ul>
         </Accordion.Body>
       </Accordion.Item>
@@ -83,7 +83,7 @@ function BasicExample() {
                 <button type='button'>계좌 복사하기</button>
               </CopyToClipboard>
             </li>
-            <li>
+            {/* <li>
               <div>
                 <span>
                   <em>아버지</em><b>왕춘구</b>
@@ -99,7 +99,7 @@ function BasicExample() {
               >
                 <button type='button'>계좌 복사하기</button>
               </CopyToClipboard>
-            </li>
+            </li> */}
             <li>
               <div>
                 <span>

@@ -1,8 +1,7 @@
 import React from 'react'
-
 import { useEffect } from 'react'
+
 const {kakao} = window;
-const {daum} = window;
 
 function Map(props){
     // 카카오맵

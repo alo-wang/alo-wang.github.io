@@ -118,6 +118,7 @@
                 &.item-01{
                     margin-top:69.6875vw;
                     margin-right:6.25vw;
+                    animation:1.5s alternate ease-in-out infinite moving02;
                     figcaption{
                         text-align:right;
                         &::before{
@@ -129,6 +130,7 @@
                 &.item-02{
                     margin-top:-1.5vw;
                     margin-left:6.25vw;
+                    animation:1.5s alternate ease-in-out infinite moving03;
                     figcaption{
                         &::before{
                             top:1.5vw;
@@ -140,14 +142,17 @@
                 &.item-03{
                     margin-top:18.75vw;
                     margin-right:-4.0625vw;
+                    animation:1.5s alternate ease-in-out infinite moving01;
                 }
                 &.item-04{
                     margin-top:84.375vw;
                     margin-left:-4.0625vw;
+                    animation:1.5s alternate ease-in-out infinite moving03;
                 }
                 &.item-05{
                     margin-top:18.75vw;
                     margin-left:-4.0625vw;
+                    animation:1.5s alternate ease-in-out infinite moving02;
                 }
                 &.item-06{
                     width:75vw;
@@ -492,20 +497,14 @@
         border-radius:2.5vw 2.5vw 0 0;
         &::before{display:none;}
     }
-    .accordion-button{
-
-    }
-
-
+    .accordion-button{font-family: "GangwonEdu Modu";}
     .accordion-collapse{
         display:none;
         border-radius:0 0 2.5vw 2.5vw;
         border:1px solid #F0EFEB;
         &.show{display:block;}
     }
-    .accordion-body{
-        padding:5vw;/* 5.625vw */
-    }
+    .accordion-body{padding:5vw;}
 }
 
 /* bootstrap */
@@ -603,8 +602,10 @@
             // margin-left:4.375vw;
             padding:1.5625vw 2.5vw 1.5625vw 6.25vw;
             background:#fff url('../img/ico-file.svg') no-repeat center left 1.5vw;
+            background-size:4.375vw auto;
             border-radius:1.25vw;
             border:.3125vw solid #3d3b3d;
+            color:#3B3D3B;
             @include font('size-10');
             font-weight:500;
         }

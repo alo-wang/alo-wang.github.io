@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './css/style.scss';
 import Intro from './section/intro';
 import Greeting from './section/greeting';
