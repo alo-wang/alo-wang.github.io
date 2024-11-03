@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.cd6403c2.css",
-    "main.js": "/static/js/main.7c1dd142.js",
+    "main.js": "/static/js/main.1b10121d.js",
     "static/js/453.e1a4b6e9.chunk.js": "/static/js/453.e1a4b6e9.chunk.js",
     "static/media/img-intro.png": "/static/media/img-intro.c2ff7aa68e6fd8dac134.png",
     "static/media/img-us-02.png": "/static/media/img-us-02.03b1df85edb8f4716046.png",
@@ -16,18 +16,17 @@
     "static/media/bg-top.svg": "/static/media/bg-top.5f6b0b6e4895de610824.svg",
     "static/media/ico-title-top.svg": "/static/media/ico-title-top.4f1a1b36b8d4b477e1b4.svg",
     "static/media/ico-top-heart.svg": "/static/media/ico-top-heart.587dae31bc41a268a47c.svg",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "static/media/ico-call.svg": "/static/media/ico-call.ac27b105280e60252dc8cd889cef7f71.svg",
     "index.html": "/index.html",
     "static/media/ico-msg.svg": "/static/media/ico-msg.431e9aa72932eee8828326d96596995e.svg",
     "static/media/ico-file.svg": "/static/media/ico-file.6d1a7232e0c285285bcd.svg",
     "static/media/ico-acc-up.svg": "/static/media/ico-acc-up.4298164c6e3205e357ec.svg",
     "main.cd6403c2.css.map": "/static/css/main.cd6403c2.css.map",
-    "main.7c1dd142.js.map": "/static/js/main.7c1dd142.js.map",
+    "main.1b10121d.js.map": "/static/js/main.1b10121d.js.map",
     "453.e1a4b6e9.chunk.js.map": "/static/js/453.e1a4b6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cd6403c2.css",
-    "static/js/main.7c1dd142.js"
+    "static/js/main.1b10121d.js"
   ]
 }
