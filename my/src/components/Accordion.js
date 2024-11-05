@@ -83,23 +83,23 @@ function BasicExample() {
                 <button type='button'>계좌 복사하기</button>
               </CopyToClipboard>
             </li>
-            {/* <li>
+            <li>
               <div>
                 <span>
                   <em>아버지</em><b>왕춘구</b>
                 </span>              
                 <p>
-                  우리은행
-                  <i>1000-000-000000</i>
+                  농협
+                  <i>108-12-199990</i>
                 </p>                
               </div>
               <CopyToClipboard
-                text="1000-000-000000"
+                text="108-12-199990"
                 onCopy={() => alert("계좌번호가 복사되었습니다.")}
               >
                 <button type='button'>계좌 복사하기</button>
               </CopyToClipboard>
-            </li> */}
+            </li>
             <li>
               <div>
                 <span>
